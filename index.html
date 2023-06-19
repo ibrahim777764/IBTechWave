@@ -1,556 +1,98 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<html>
+<head>
+  <title>Responsive Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#our">Our Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      />
-      <!-- Google Font -->
-      <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
-        rel="stylesheet"
-      />
+  <section id="our" class="our-services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+      <img src="assets/img/Saly-12.png" alt="Service 1">
+      <p>Make your online presence extraordinary with us! Trust us to create a website that surpasses all expectations, showcasing your unique talents and providing an exceptional user experience. Our team specializes in crafting responsive websites that adapt seamlessly to any device, ensuring your website looks stunning on desktops, tablets, and mobile phones. Embrace the power of the web and let us elevate your online presence to new heights!</p>
+    </div>
+    <div class="service-box">
+      <img src="assets/img/Saly-10.png" alt="Service 2">
+      <p>At your service 24/7! Experience lightning-fast delivery like never before. Our team of talented professionals is dedicated to working around the clock, ensuring your needs are met with unrivaled speed and precision. With our round-the-clock commitment, rest assured that your project will be in capable hands, leaving you amazed by the efficiency and expertise we bring to the table. Discover the power of our tireless team and unlock a world of possibilities!</p>
+    </div>
+    <div class="service-box">
+      <img src="assets/img/Saly-31.png" alt="Service 3">
+      <p>Experience a seamless developer-client collaboration like never before! At our company, we prioritize respectful and effective communication. Our team of dedicated developers is available 24/7 to ensure constant contact and transparent updates throughout your project journey. We value your input and actively engage with you, transforming your vision into a remarkable reality. Embrace the power of continuous connection and witness the synergy that emerges when we join forces. Together, we'll create something extraordinary!</p>
+    </div>
+  
+  </section>
 
-          
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <section id="about" class="about-us">
+    <h2>About Us</h2>
+    <img src="assets/img/logo (1).png" alt="About Us">
+    <p>A group of professionals who know how to enhance someone's online presence and make their existence better with their magic</p>
+  </section>
 
-  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons'>
-
-      <link rel="stylesheet" href="css1/style.css">
-
-        <!--=============== BOXICONS ===============-->
-        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Responsive menu ui - Bedimcode</title>
-    </head>
-    <body>
-        <!--=============== NAV ===============-->
-        <nav class="nav" id="nav">
-            <div class="nav__menu container" id="nav-menu">
-                <div class="nav__shape"></div>
-
-                <div class="nav__close" id="nav-close">
-                    <i class='bx bx-x'></i>
-                </div>
-                
-                <div class="nav__data">
-                    <div class="nav__mask">
-                        <!-- Change your profile picture -->
-                        <img src="assets/img/perfil.png" alt="" class="nav__img">
-                    </div>
-
-                  
-                </div>
-
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class='bx bx-home' ></i> Home 
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">
-                            <i class='bx bx-user'></i> About
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class='bx bx-briefcase-alt-2'></i> Portfolio
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class='bx bx-bookmark'></i> Skills
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class='bx bx-message-square-detail'></i> Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <!--=============== MAIN ===============-->
-        <main class="main" id="main">
-            <!--=============== HEADER ===============-->
-            <header class="header" id="header">
-                <nav class="header__nav container">
-                    <a href="#" class="header__logo">
-                        <img src="assets/img/1.png" alt="" class="nav__img">
-
-                    </a>
+  <section id="contact" class="contact-us">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/xpzeggkg" method="POST">
+      <input type="text" name="name" placeholder="Name">
+      <input type="email" name="_replyto" placeholder="Email">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
     
-                    <!-- Toggle button -->
-                    <div class="header__toggle" id="header-toggle">
-                        <i class='bx bx-grid-alt'></i>
-                    </div>
-                </nav>
-            </header>
+  </section>
 
-
-            <!-- When inserting your content into sections, remove the section__height class -->
-            <!--=============== HOME ===============-->
-            <section class="section section__height container" id="home">
-                <h1 class="hometext"><span>All</span>
-                    <div class="message">
-                      <div class="word1">about</div>
-                      <div class="word2">us</div> </h1>
-
-
-                <div class="card">
-                    <div class="products">
-                      <div class="product active" product-id="1" product-color="#D18B49">
-
-                        <div class="thumbnail"><img src="assets/img/2.png"/></div>
-                        <h1 class="title"> Unleash the Power of Responsive Design</h1>
-                        <p class="description">Revamp Your Online Presence! Get Mobile-Ready Websites or Transform Your Desktop Site into a Sleek Mobile Version! Unlock the Power of Responsive Design with Us</p>
-                      </div>
-                      <div class="product" product-id="2" product-color="#542F13">
-                        <div class="thumbnail"><img src="assets/img/4.png"/></div>
-                        <h1 class="title">SwiftSite Delivery</h1>
-                        <p class="description">Experience Lightning-Fast Website Delivery: Where Speed Meets Magic!</p>
-                      </div>
-                      <div class="product" product-id="3" product-color="#A5AAAE">
-                        <div class="thumbnail"><img src="assets/img/3.png"/></div>
-                        <h1 class="title">Empowering Your Digital Vision</h1>
-                        <p class="description">Unleash Your Vision with Expert Developers and Unbeatable Offers</p>
-                      </div>
-        
-                    </div>
-                    <div class="footer"><a class="btn" id="prev" href="#" ripple="" ripple-color="#666666">Prev</a><a class="btn" id="next" href="#" ripple="" ripple-color="#666666">Next</a></div>
-                  </div>
-                  <hr>
-
-                    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-                  
-                      <script src="js1/index.js"></script>
-                  
-                
-                
-            </section>
-
-            <!--=============== ABOUT ===============-->
-            <section class="section2 section__height container" id="about">
-        
-                
-                    <div class="row">
-                      <h2 class="section-heading">Our Services</h2>
-                    </div>
-                    <div class="row">
-                      <div class="column">
-                        <div class="card2">
-                          <div class="icon-wrapper">
-                            <i class="fas fa-hammer"></i>
-                          </div>
-                          <h3>Service Heading</h3>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                            consequatur necessitatibus eaque.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="column">
-                        <div class="card2">
-                          <div class="icon-wrapper">
-                            <i class="fas fa-brush"></i>
-                          </div>
-                          <h3>Service Heading</h3>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                            consequatur necessitatibus eaque.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="column">
-                        <div class="card2">
-                          <div class="icon-wrapper">
-                            <i class="fas fa-wrench"></i>
-                          </div>
-                          <h3>Service Heading</h3>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                            consequatur necessitatibus eaque.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="column">
-                        <div class="card2">
-                          <div class="icon-wrapper">
-                            <i class="fas fa-truck-pickup"></i>
-                          </div>
-                          <h3>Service Heading</h3>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                            consequatur necessitatibus eaque.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="column">
-                        <div class="card2">
-                          <div class="icon-wrapper">
-                            <i class="fas fa-broom"></i>
-                          </div>
-                          <h3>Service Heading</h3>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                            consequatur necessitatibus eaque.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="column">
-                        <div class="card2">
-                          <div class="icon-wrapper">
-                            <i class="fas fa-plug"></i>
-                          </div>
-                          <h3>Service Heading</h3>
-                          <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                            consequatur necessitatibus eaque.
-                          </p>
-                        </div>
-                      </div>
-                    </div>        
-
-            </section>
-            <br>
-            <br><br>
-            
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-      <br>
-      <br>
-      <br>     
-       
-            <!--=============== PORTFOLIO ===============-->
-            <section class="section section__height container" id="portfolio">
-
-                <hr>
-
-            </section>
-
-            <!--=============== SKILLS ===============-->
-          
-            <!--=============== CONTACT ===============-->
-            <section class="section section__height container" id="contact">
-
-                <div class="container12">
-                    <h1 class="contactext">contact us</h1>
-                  <form action="https://formspree.io/f/xpzeggkg"
-                  method="POST">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="afghanistan">Afghanistan</option>
-                        <option value="albania">Albania</option>
-                        <option value="algeria">Algeria</option>
-                        <option value="andorra">Andorra</option>
-                        <option value="angola">Angola</option>
-                        <option value="antigua-and-barbuda">Antigua and Barbuda</option>
-                        <option value="argentina">Argentina</option>
-                        <option value="armenia">Armenia</option>
-                        <option value="australia">Australia</option>
-                        <option value="austria">Austria</option>
-                        <option value="azerbaijan">Azerbaijan</option>
-                        <option value="bahamas">Bahamas</option>
-                        <option value="bahrain">Bahrain</option>
-                        <option value="bangladesh">Bangladesh</option>
-                        <option value="barbados">Barbados</option>
-                        <option value="belarus">Belarus</option>
-                        <option value="belgium">Belgium</option>
-                        <option value="belize">Belize</option>
-                        <option value="benin">Benin</option>
-                        <option value="bhutan">Bhutan</option>
-                        <option value="bolivia">Bolivia</option>
-                        <option value="bosnia-and-herzegovina">Bosnia and Herzegovina</option>
-                        <option value="botswana">Botswana</option>
-                        <option value="brazil">Brazil</option>
-                        <option value="brunei">Brunei</option>
-                        <option value="bulgaria">Bulgaria</option>
-                        <option value="burkina-faso">Burkina Faso</option>
-                        <option value="burundi">Burundi</option>
-                        <option value="cabo-verde">Cabo Verde</option>
-                        <option value="cambodia">Cambodia</option>
-                        <option value="cameroon">Cameroon</option>
-                        <option value="canada">Canada</option>
-                        <option value="central-african-republic">Central African Republic</option>
-                        <option value="chad">Chad</option>
-                        <option value="chile">Chile</option>
-                        <option value="china">China</option>
-                        <option value="colombia">Colombia</option>
-                        <option value="comoros">Comoros</option>
-                        <option value="congo-democratic-republic-of-the">Congo, Democratic Republic of the</option>
-                        <option value="congo-republic-of-the">Congo, Republic of the</option>
-                        <option value="costa-rica">Costa Rica</option>
-                        <option value="cote-divoire">Cote d'Ivoire</option>
-                        <option value="croatia">Croatia</option>
-                        <option value="cuba">Cuba</option>
-                        <option value="cyprus">Cyprus</option>
-                        <option value="czech-republic">Czech Republic</option>
-                        <option value="denmark">Denmark</option>
-                        <option value="djibouti">Djibouti</option>
-                        <option value="dominica">Dominica</option>
-                        <option value="dominican-republic">Dominican Republic</option>
-                        <option value="east-timor">East Timor</option>
-                        <option value="ecuador">Ecuador</option>
-                        <option value="egypt">Egypt</option>
-                        <option value="el-salvador">El Salvador</option>
-                        <option value="equatorial-guinea">Equatorial Guinea</option>
-                        <option value="eritrea">Eritrea</option>
-                        <option value="estonia">Estonia</option>
-                        <option value="eswatini">Eswatini</option>
-                        <option value="ethiopia">Ethiopia</option>
-                        <option value="fiji">Fiji</option>
-                        <option value="finland">Finland</option>
-                        <option value="france">France</option>
-                        <option value="gabon">Gabon</option>
-                        <option value="gambia">Gambia</option>
-                        <option value="georgia">Georgia</option>
-                        <option value="germany">Germany</option>
-                        <option value="ghana">Ghana</option>
-                        <option value="greece">Greece</option>
-                        <option value="grenada">Grenada</option>
-                        <option value="guatemala">Guatemala</option>
-                        <option value="guinea">Guinea</option>
-                        <option value="guinea-bissau">Guinea-Bissau</option>
-                        <option value="guyana">Guyana</option>
-                        <option value="haiti">Haiti</option>
-                        <option value="honduras">Honduras</option>
-                        <option value="hungary">Hungary</option>
-                        <option value="iceland">Iceland</option>
-                        <option value="india">India</option>
-                        <option value="indonesia">Indonesia</option>
-                        <option value="iran">Iran</option>
-                        <option value="iraq">Iraq</option>
-                        <option value="ireland">Ireland</option>
-                        <option value="israel">Israel</option>
-                        <option value="italy">Italy</option>
-                        <option value="jamaica">Jamaica</option>
-                        <option value="japan">Japan</option>
-                        <option value="jordan">Jordan</option>
-                        <option value="kazakhstan">Kazakhstan</option>
-                        <option value="kenya">Kenya</option>
-                        <option value="kiribati">Kiribati</option>
-                        <option value="korea-north">Korea, North</option>
-                        <option value="korea-south">Korea, South</option>
-                        <option value="kosovo">Kosovo</option>
-                        <option value="kuwait">Kuwait</option>
-                        <option value="kyrgyzstan">Kyrgyzstan</option>
-                        <option value="laos">Laos</option>
-                        <option value="latvia">Latvia</option>
-                        <option value="lebanon">Lebanon</option>
-                        <option value="lesotho">Lesotho</option>
-                        <option value="liberia">Liberia</option>
-                        <option value="libya">Libya</option>
-                        <option value="liechtenstein">Liechtenstein</option>
-                        <option value="lithuania">Lithuania</option>
-                        <option value="luxembourg">Luxembourg</option>
-                        <option value="madagascar">Madagascar</option>
-                        <option value="malawi">Malawi</option>
-                        <option value="malaysia">Malaysia</option>
-                        <option value="maldives">Maldives</option>
-                        <option value="mali">Mali</option>
-                        <option value="malta">Malta</option>
-                        <option value="marshall-islands">Marshall Islands</option>
-                        <option value="mauritania">Mauritania</option>
-                        <option value="mauritius">Mauritius</option>
-                        <option value="mexico">Mexico</option>
-                        <option value="micronesia">Micronesia</option>
-                        <option value="moldova">Moldova</option>
-                        <option value="monaco">Monaco</option>
-                        <option value="mongolia">Mongolia</option>
-                        <option value="montenegro">Montenegro</option>
-                        <option value="morocco">Morocco</option>
-                        <option value="mozambique">Mozambique</option>
-                        <option value="myanmar">Myanmar</option>
-                        <option value="namibia">Namibia</option>
-                        <option value="nauru">Nauru</option>
-                        <option value="nepal">Nepal</option>
-                        <option value="netherlands">Netherlands</option>
-                        <option value="new-zealand">New Zealand</option>
-                        <option value="nicaragua">Nicaragua</option>
-                        <option value="niger">Niger</option>
-                        <option value="nigeria">Nigeria</option>
-                        <option value="north-macedonia">North Macedonia</option>
-                        <option value="norway">Norway</option>
-                        <option value="oman">Oman</option>
-                        <option value="pakistan">Pakistan</option>
-                        <option value="palau">Palau</option>
-                        <option value="panama">Panama</option>
-                        <option value="papua-new-guinea">Papua New Guinea</option>
-                        <option value="paraguay">Paraguay</option>
-                        <option value="peru">Peru</option>
-                        <option value="philippines">Philippines</option>
-                        <option value="poland">Poland</option>
-                        <option value="portugal">Portugal</option>
-                        <option value="qatar">Qatar</option>
-                        <option value="romania">Romania</option>
-                        <option value="russia">Russia</option>
-                        <option value="rwanda">Rwanda</option>
-                        <option value="saint-kitts-and-nevis">Saint Kitts and Nevis</option>
-                        <option value="saint-lucia">Saint Lucia</option>
-                        <option value="saint-vincent-and-the-grenadines">Saint Vincent and the Grenadines</option>
-                        <option value="samoa">Samoa</option>
-                        <option value="san-marino">San Marino</option>
-                        <option value="sao-tome-and-principe">Sao Tome and Principe</option>
-                        <option value="saudi-arabia">Saudi Arabia</option>
-                        <option value="senegal">Senegal</option>
-                        <option value="serbia">Serbia</option>
-                        <option value="seychelles">Seychelles</option>
-                        <option value="sierra-leone">Sierra Leone</option>
-                        <option value="singapore">Singapore</option>
-                        <option value="slovakia">Slovakia</option>
-                        <option value="slovenia">Slovenia</option>
-                        <option value="solomon-islands">Solomon Islands</option>
-                        <option value="somalia">Somalia</option>
-                        <option value="south-africa">South Africa</option>
-                        <option value="south-sudan">South Sudan</option>
-                        <option value="spain">Spain</option>
-                        <option value="sri-lanka">Sri Lanka</option>
-                        <option value="sudan">Sudan</option>
-                        <option value="suriname">Suriname</option>
-                        <option value="sweden">Sweden</option>
-                        <option value="switzerland">Switzerland</option>
-                        <option value="syria">Syria</option>
-                        <option value="taiwan">Taiwan</option>
-                        <option value="tajikistan">Tajikistan</option>
-                        <option value="tanzania">Tanzania</option>
-                        <option value="thailand">Thailand</option>
-                        <option value="togo">Togo</option>
-                        <option value="tonga">Tonga</option>
-                        <option value="trinidad-and-tobago">Trinidad and Tobago</option>
-                        <option value="tunisia">Tunisia</option>
-                        <option value="turkey">Turkey</option>
-                        <option value="turkmenistan">Turkmenistan</option>
-                        <option value="tuvalu">Tuvalu</option>
-                        <option value="uganda">Uganda</option>
-                        <option value="ukraine">Ukraine</option>
-                        <option value="united-arab-emirates">United Arab Emirates</option>
-                        <option value="united-kingdom">United Kingdom</option>
-                        <option value="united-states-of-america">United States of America</option>
-                        <option value="uruguay">Uruguay</option>
-                        <option value="uzbekistan">Uzbekistan</option>
-                        <option value="vanuatu">Vanuatu</option>
-                        <option value="vatican-city">Vatican City</option>
-                        <option value="venezuela">Venezuela</option>
-                        <option value="vietnam">Vietnam</option>
-                        <option value="yemen">Yemen</option>
-                        <option value="zambia">Zambia</option>
-                        <option value="zimbabwe">Zimbabwe</option>
-                    </select>
-                
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                
-                    <input type="submit" value="Submit">
-                  </form>
-                </div>
-                
-
-            </section>
-            <section >
-                <ul class="social-icons">
-                    <li>
-                      <a class="facebook" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <img src="assets/img/inkedin.png" alt="Facebook">
-                      </a>
-                    </li>
-                    <li>
-                      <a class="twitter" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <img src="assets/img/instagram.png" alt="Twitter">
-                      </a>
-                    </li>
-                    <li>
-                      <a class="instagram" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <img src="assets/img/github.png" alt="Instagram">
-                      </a>
-                    </li>
-                    <li>
-                      <a class="google" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <img src="assets/img/upwork.png" alt="Google">
-                      </a>
-                    </li>
-                    <li>
-                      <a class="facebook" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <img src="assets/img/fiverr.png" alt="Facebook">
-                      </a>
-                    </li>
-                    <li>
-                      <a class="facebook" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <img src="assets/img/gmail.png" alt="Facebook">
-                      </a>
-                    </li>
-                    <li>
-                      <a class="facebook" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <img src="assets/img/discord.png" alt="Facebook">
-                      </a>
-                    </li>
-                  </ul>
-            </section>
-        </main>
-
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+  <footer>
+    <div class="social-media">
+      <a href="https://github.com">
+        <img src="assets/img/github.png" alt="GitHub">
+      </a>
+      
+      <a href="mailto:ibrahimnaseer896e@gmail.com">
+        <img src="assets/img/gmail.png" alt="Gmail">
+      </a>
+      
+      <a href="https://www.linkedin.com/in/ibrahim-naseer/">
+        <img src="assets/img/inkedin.png" alt="LinkedIn">
+      </a>
+      
+      <a href="https://www.instagram.com">
+        <img src="assets/img/instagram.png" alt="Instagram">
+      </a>
+      
+      <a href="https://www.youtube.com">
+        <img src="assets/img/discord.png" alt="YouTube">
+      </a>
+      
+      <a href="https://www.upwork.com/freelancers/~0183a9a3f865bc086f">
+        <img src="assets/img/upwork.png" alt="upwork">
+      </a>
+      
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/649098cacc26a871b0237db9/1h3ad9mlr';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
 </html>

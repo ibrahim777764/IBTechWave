@@ -1,0 +1,279 @@
+/* Basic styles */
+body {
+  margin: 0;
+  padding: 0;
+  font: 1em sans-serif;
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+/* Navbar styles */
+/* Rest of the CSS code */
+
+header {
+  background-image: url('assets/img/use-svg-as-background-image-particle-strokes.svg');
+  background-size: cover;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.logo {
+  width: 100%;
+  height: 1px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #6c63ff;
+}
+
+/* Rest of the CSS code */
+
+
+/* Section styles */
+section {
+  padding: 40px;
+  text-align: center;
+  border-bottom: 2px solid #000000;
+
+  /* Rest of the CSS code */
+
+
+/* Rest of the CSS code */
+
+}
+/* Rest of the CSS code */
+
+h2 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #5a1144;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: revert;
+  font-size: 14px;
+  line-height: 1;
+  color: #000000;
+  text-align: justify;
+  flex-direction: column;
+
+
+}
+
+/* Rest of the CSS code */
+/* Rest of the CSS code */
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.section-content p {
+  margin-top: 20px;
+}
+
+/* Rest of the CSS code */
+
+
+.service-box {
+  display: inline-block;
+  margin: 20px;
+}
+/* Rest of the CSS code */
+
+.service-box {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  background-image: url('assets/img/bg3.png');
+}
+
+.service-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Rest of the CSS code */
+
+
+/* Rest of the CSS code */
+.service-box p {
+  transition: color 0.3s ease-in-out;
+}
+
+.service-box:hover p {
+  color: #ffffff;
+}
+
+.service-box img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-box img:hover {
+  transform: rotate(-5deg);
+}
+
+/* Rest of the CSS code */
+
+/* Rest of the CSS code */
+
+.about-us {
+  text-align: center;
+}
+
+/* Rest of the CSS code */
+
+.about-us {
+  text-align: center;
+  border: 22px solid #5a1144;;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.about-us img {
+  max-width: 26%;
+  height: auto;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-us img:hover {
+  transform: scale(1.1) rotate(-5deg);
+}
+
+.about-us p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Rest of the CSS code */
+
+
+/* Rest of the CSS code */
+
+
+/* Rest of the CSS code */
+
+.contact-us {
+  text-align: center;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.contact-us input,
+.contact-us textarea,
+.contact-us button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-us input:focus,
+.contact-us textarea:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+}
+
+.contact-us button {
+  background-color: #691655;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-us button:hover {
+  transform: scale(1.05);
+}
+
+/* Rest of the CSS code */
+
+/* Footer styles */
+footer {
+  background-image: url('assets/img/use-svg-as-background-image-particle-strokes.svg');
+  background-size: cover;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.social-media img {
+  width: 30px;
+  margin: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links li {
+    margin: 0;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-links li a:hover {
+    background-color: #555;
+  }
+
+  .nav-links.active {
+    display: block;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+}

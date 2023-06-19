@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("warning",["WebDriverConfig","cr:1105154","cr:11202","cr:2682"],(function(a,b,c,d,e,f,g){a=b("cr:2682");c=a;g["default"]=c}),98);
+__d("ActorURIConfig",[],(function(a,b,c,d,e,f){a=Object.freeze({PARAMETER_ACTOR:"av",ENCRYPTED_PARAMETER_ACTOR:"eav"});f["default"]=a}),66);
+__d("isBarcelonaURI",[],(function(a,b,c,d,e,f){function a(a){var b=a.getProtocol();a=a.getDomain();return(b==="http"||b==="https")&&(a==="threads.net"||a.endsWith(".threads.net"))}f["default"]=a}),66);
