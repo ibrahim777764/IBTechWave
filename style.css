@@ -127,7 +127,7 @@ h2 {
 }
 
 p {
-  font-family: revert;
+  font-family: serif;
   font-size: 14px;
   line-height: 1;
   color: #000000;
@@ -153,13 +153,15 @@ p {
   border: 1px solid #000000;
   border-radius: 8px;
   padding: 20px;
-  transition: transform 0.3s ease;
-  background-image: url('assets/img/bg3.png');
-}
+  background: linear-gradient(to right, #000000, #e10dac); /* Initial background gradient */
+  transition: background 0.3s ease; /* Smooth transition effect */
 
+}
 .service-box:hover {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right, #e10dac, #141403); /* Background gradient on hover */
+
 }
 
 .service-box p {
@@ -168,6 +170,19 @@ p {
 
 .service-box:hover p {
   color: #ffffff;
+  font-weight: bolder; /* Bold on hover */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Shadow effect on hover */
+  text-shadow: 0 0 5px rgb(21, 16, 16); /* Glow effect on hover */
+  opacity: 1;
+
+
+
+
+
+
+
+
+
 }
 
 .service-box img {
