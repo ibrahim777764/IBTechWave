@@ -153,14 +153,14 @@ p {
   border: 1px solid #000000;
   border-radius: 8px;
   padding: 20px;
-  background: linear-gradient(to right, #000000, #e10dac); /* Initial background gradient */
+  background: linear-gradient(to right, #0d0639 , #e10dac); /* Initial background gradient */
   transition: background 0.3s ease; /* Smooth transition effect */
 
 }
 .service-box:hover {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(to right, #e10dac, #141403); /* Background gradient on hover */
+  background: linear-gradient(to right, #e10dac, #0d0639); /* Background gradient on hover */
 
 }
 

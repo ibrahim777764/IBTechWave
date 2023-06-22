@@ -7,12 +7,13 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: url('assets/img/bg3.png');
+	background: linear-gradient(to right, #0d0639, #4b0440); /* Background gradient on hover */
 	z-index: 10000;
 	height: 400px;
 	gap: 40px;
 	font-weight: bolder;
-	transition: top 0.5s ease-in-out;
+	transition: top 0.10s ease-in-out;
+	color: #ffffff;
   }
   
   .show-menu {
